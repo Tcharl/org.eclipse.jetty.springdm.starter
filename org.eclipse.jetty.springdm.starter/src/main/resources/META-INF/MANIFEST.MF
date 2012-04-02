@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-Vendor: Osgiliath Inc.
+Fragment-Host: org.springframework.osgi.web.extender
+Bundle-Version: 0.0.1
+Tool: Bundlor 1.0.0.RELEASE
+Bundle-Name: org.eclipse.jetty.springdm.starter
+Bundle-ManifestVersion: 2
+Bundle-SymbolicName: org.eclipse.jetty_org.eclipse.jetty.springdm.star
+ ter
+Import-Package: org.eclipse.jetty.server,org.springframework.osgi.web.
+ deployer.jetty8
+

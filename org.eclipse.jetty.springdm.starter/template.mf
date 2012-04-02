@@ -1,0 +1,7 @@
+Bundle-ManifestVersion: 2
+Bundle-Name: ${project.artifactId}
+Bundle-Vendor: Osgiliath Inc.
+Bundle-SymbolicName: ${project.groupId}_${project.artifactId}
+Bundle-Version: ${project.version}
+Fragment-Host: org.springframework.osgi.web.extender
+Import-Package: org.springframework.osgi.web.deployer.jetty8, org.eclipse.jetty.server
